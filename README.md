@@ -1,5 +1,12 @@
 # Reporte de Desempeño: RayTracing con OpenMP
 
+# Integrantes del proyecto
+Nº	Código	Apellidos	Nombres	Correo institucional
+5	22200174	Ordoñez Neyra	Andrés Rafael	andres.ordonez@unmsm.edu.pe
+5	22200163	Dominguez Coyuri	Bruce Stivens	bruce.dominguez@unmsm.edu.pe
+5	22200160	Bazalar Cruz	Carlos Alonso	carlos.bazalar1@unmsm.edu.pe
+5	22200052	Uribe Mejía	Guillermo César	guillermo.uribe@unmsm.edu.pe
+
 ## 1. Descripción del Proyecto
 Este proyecto implementa un algoritmo de **Ray Tracing** simple paralelizado utilizando **OpenMP** en C++. El objetivo es renderizar una escena 3D calculando el color de cada píxel basándose en la intersección de rayos con objetos (esferas) en la escena. La paralelización busca reducir el tiempo de renderizado distribuyendo la carga de trabajo de los píxeles entre múltiples hilos de la CPU.
 
