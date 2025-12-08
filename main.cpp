@@ -105,7 +105,7 @@ int main(int argc, char** argv) {
     double scale = tan((fov * 0.5) * M_PI/180.0);
 
     // Results container (colors as Vector3 in [0..1])
-
+    system("mkdir -p img_output");
     for (int th : threadCounts) {
         // Set threads
         omp_set_num_threads(th);
